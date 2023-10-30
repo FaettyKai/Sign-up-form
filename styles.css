@@ -1,6 +1,38 @@
-form > label, input {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 50%;
+.logo {
+    border-radius: 50%;
+}
+
+.left-side {
+    width: 40vw;
+    height: 100vh;
+    margin-left: 5rem;
+}
+
+.right-side {
+    width: 50vw;
+    height: 100vh;
+    background: rgba(210, 180, 140, 0.7);
+    filter: alpha(opacity = 30);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+form {
+    display: grid;
+    grid-template-columns: 10rem 20rem;
+    grid-template-rows: repeat(6, 1fr);
+}
+
+footer {
+    margin-top: 0.5rem;
+}
+
+button {
+    height: 2rem;
+    width: 10rem;
+    margin-top: 3rem;
+    border-radius: 4px;
 }
